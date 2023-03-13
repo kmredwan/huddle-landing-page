@@ -1,0 +1,169 @@
+/* small viewport */
+
+@media screen and (min-width: 375px){
+
+    header {
+        padding: 1.2rem 0rem;
+    }
+    
+
+    .header_wapper{
+        /* width: 370px; */
+    }
+
+    .header_wapper .logo img {
+        width: 130px;
+        margin-left: 1rem;
+    }
+
+    .build-community_content .hading-titel {
+        width: 400px;
+        text-align: center;
+    } 
+
+    .build-community_content .hading-content{
+        width: 330px;
+        text-align: justify;
+        margin-left: 1rem;
+    }
+
+    .screen-mockups_wapper img{
+        max-width: 350px;
+    }
+
+    .user-react_wapper{
+        flex-direction: column;
+        height: 350px;
+       
+    }
+
+    .grow-together_wapper{
+        flex-direction: column-reverse;
+        height: 800px;
+    }
+
+    .grow-together_image img{
+        width: 350px;
+    }
+
+    .conversations-wapper {
+        flex-direction: column;
+        height: 500px;
+    }
+    .conversations-image img {
+        width: 350px;
+    }
+
+    .user-wapper {
+        flex-direction: column-reverse;
+        height: 700px;
+    }
+
+    .user-img img{
+        width: 350px;
+    }
+
+    .footer-wapper {
+        
+        flex-direction: column-reverse;
+        height: 600px;
+        padding-bottom: 0.7rem;
+    }
+
+    input[type="text"]{
+        width: 100%;
+        margin-bottom: 1.2rem;
+    }
+
+    .footer_bg {
+        margin-bottom: 1rem;
+    }
+    .footer-wapper::after{
+        height: 107%;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+.header_wapper {
+        width: 100%;
+    }
+    header {
+        padding: 1.2rem 1.5rem;
+    }
+
+    .build-community_content .hading-titel {
+        width: 100%;
+    }
+
+    .build-community_content .hading-content{
+        width: 100%;
+        text-align: start;
+    }
+
+    .screen-mockups_wapper img{
+        max-width: 100%;
+    }
+
+     .user-react_wapper{
+        flex-direction: row;
+        height: 100%;
+       
+    }
+
+    .grow-together_wapper{
+        flex-direction: row-reverse;
+        height: 100%;
+    }
+    .grow-together_image img{
+        width: 100%;
+    }
+    .conversations-wapper {
+        flex-direction: row;
+        height: 100%;
+    }
+    .conversations-image img {
+        width: 100%;
+    }
+
+    .user-wapper {
+        flex-direction: row-reverse;
+        height: 100%;
+    }
+
+    .user-img img{
+        width: 100%;
+    }
+
+    .footer-wapper {
+        
+        flex-direction: row;
+        height: 100%;
+    
+    }
+  
+
+    input[type="text"]{
+        width: 205px;
+        
+    }
+
+   
+    .footer-wapper::after{
+        height: 116%;
+    }
+
+
+}
+
+   
+
+    
+
+
+
